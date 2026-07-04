@@ -1,59 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contemplative Outreach of Northern Nevada</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Contemplative Outreach of Northern Nevada</h1>
-      <p>Supporting contemplative practice and spiritual growth</p>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <title>Contemplative Outreach of Northern Nevada</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Alegreya:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
-    <main>
-      <section class="event">
-        <h2>Centering Prayer Silent Retreat</h2>
-      
-        <p><strong>Dates:</strong> October 14-16, 2026</p>
-        <p><strong>Location:</strong> Zephyr Point Presbyterian Conference Center at Lake Tahoe -  
-           Zephyr Cove, Nevada</p>
-      
+  <!-- Header / Hero -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-title">
+        <img src="https://centeringprayer.com/connv/wp-content/uploads/sites/22/2025/03/co-logo-transparent.png"
+             alt="Contemplative Outreach Logo"
+             class="site-logo">
+        <div class="site-text">
+          <h1 class="site-title">Contemplative Outreach of Northern Nevada</h1>
+          <p class="site-subtitle">A local expression of the Contemplative Outreach spiritual network</p>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="#prayer-groups" class="nav-button">Prayer Groups</a>
+        <a href="#events" class="nav-button">Upcoming Events</a>
+        <a href="#resources" class="nav-button">Resources</a>
+        <a href="#contact" class="nav-button">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Intro / Centering Prayer -->
+    <section class="section intro-section">
+      <div class="section-inner">
+        <h2>Centering Prayer</h2>
         <p>
-          We are a nonprofit dedicated to fostering contemplative living through 
-          Centering Prayer, Lectio Divina, and community outreach.
+          Centering Prayer is a method of silent prayer that prepares us to receive the gift of contemplative prayer,
+          in which we experience God's presence within us, closer than breathing, closer than thinking, closer than consciousness itself.
         </p>
-      
         <p>
-          Our next big event is the Centering Prayer Silent Retreat at the beautiful 
-          Zephyr Point Presbyterian Conference Center in Lake Tahoe. To inquire about this retreat, 
-          please enter your name, email, and a message below requesting more 
-          information. You will receive a reply from us within 48 hours. 
-          Thank you!
+          Contemplative Outreach is a spiritual network of individuals and small faith communities committed to living
+          the contemplative dimension of the Gospel in everyday life.
         </p>
-      
-      </section>
+      </div>
+    </section>
 
+    <!-- Prayer Groups -->
+    <section id="prayer-groups" class="section">
+      <div class="section-inner">
+        <h2>Prayer Groups</h2>
+        <p class="section-lead">
+          Local Centering Prayer groups gather regularly in Northern Nevada to share silence, scripture, and community.
+        </p>
 
-      <section>
-        <h2>Contact Us</h2>
-        <form action="https://formspree.io/f/mjkejaaj" method="POST">
-          <input type="text" name="name" placeholder="Your name" required />
-          <input type="email" name="email" placeholder="Your email" required />
-          <textarea
-            name="message"
-            placeholder="Your message"
-            required
-          ></textarea>
-          <button type="submit">Send Message</button>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Reno Centering Prayer Group</h3>
+            <p><strong>When:</strong> Tuesdays, 6:30–7:30 pm</p>
+            <p><strong>Where:</strong> Example Parish Hall, Reno, NV</p>
+            <p><strong>Contact:</strong> alan@example.org</p>
+          </article>
+
+          <article class="card">
+            <h3>Online Centering Prayer Group</h3>
+            <p><strong>When:</strong> Thursdays, 7:00–8:00 pm (Zoom)</p>
+            <p><strong>Where:</strong> Online via Zoom</p>
+            <p><strong>Contact:</strong> info@example.org</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section id="events" class="section section-alt">
+      <div class="section-inner">
+        <h2>Upcoming Events</h2>
+        <p class="section-lead">
+          Workshops, retreats, and gatherings to deepen your Centering Prayer practice.
+        </p>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>3-Day Silent Centering Prayer Retreat</h3>
+            <p><strong>Dates:</strong> [Insert Dates]</p>
+            <p><strong>Location:</strong> [Retreat Center, City, State]</p>
+            <p>
+              A silent retreat with multiple periods of Centering Prayer, time for rest, and optional spiritual conversation.
+            </p>
+            <p><strong>Registration:</strong> Coming soon</p>
+          </article>
+
+          <article class="card">
+            <h3>Introductory Workshop: Centering Prayer</h3>
+            <p><strong>Dates:</strong> [Insert Date]</p>
+            <p><strong>Location:</strong> [Venue, City, State]</p>
+            <p>
+              An introduction to the method of Centering Prayer, its roots, and practical guidance for beginning a daily practice.
+            </p>
+            <p><strong>Registration:</strong> Coming soon</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources" class="section">
+      <div class="section-inner">
+        <h2>Resources</h2>
+        <p class="section-lead">
+          Connect with Contemplative Outreach and related resources for your ongoing practice.
+        </p>
+
+        <ul class="resource-list">
+          <li>
+            <a href="https://www.contemplativeoutreach.org" target="_blank" rel="noopener">
+              Contemplative Outreach (International)
+            </a>
+          </li>
+          <li>
+            <a href="https://centeringprayer.com" target="_blank" rel="noopener">
+              Centering Prayer Website
+            </a>
+          </li>
+          <li>
+            <a href="https://centeringprayer.com/yourchapter/" target="_blank" rel="noopener">
+              Local Chapter Template & Directory
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+      <div class="section-inner">
+        <h2>Contact</h2>
+        <p class="section-lead">
+          To learn more about local groups, upcoming events, or retreats, please reach out.
+        </p>
+
+        <form class="contact-form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" placeholder="Your name">
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="you@example.com">
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="How can we support your practice?"></textarea>
+          </div>
+          <p class="form-note">
+            This form will be connected to email in a future phase. For now, please email:
+            <a href="mailto:junipertrailfarm@outlook.com">junipertrailfarm@outlook.com</a>
+          </p>
         </form>
-        <p>You can also reach us at <strong>register@connv.org</strong></p>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <footer>
-      <p>&copy; 2026 Contemplative Outreach of Northern Nevada</p>
-    </footer>
-  </body>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>
+        Contemplative Outreach of Northern Nevada<br>
+        A local expression of Contemplative Outreach, Ltd.
+      </p>
+      <p class="footer-links">
+        <a href="https://centeringprayer.com/local-volunteer-websites/" target="_blank" rel="noopener">
+          Local Volunteer Websites Directory
+        </a>
+        &nbsp;•&nbsp;
+        <a href="https://www.contemplativeoutreach.org/donate/" target="_blank" rel="noopener">
+          Donate to Contemplative Outreach
+        </a>
+      </p>
+      <p class="footer-copy">
+        &copy; <span id="year"></span> Contemplative Outreach of Northern Nevada
+      </p>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+
+</body>
 </html>
